@@ -1,0 +1,19 @@
+# Learn more: https://shopify.dev/docs/apps/tools/cli/configuration
+name = "ShopPulse AI"
+client_id = "ae5af2450a612feb369cae09626aa8e4"
+application_url = "https://detroit-interfaces-coupled-syndrome.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+scopes = "read_products,write_products,read_content,read_legal_policies,read_online_store_pages,read_orders"
+
+[auth]
+redirect_urls = [
+  "https://detroit-interfaces-coupled-syndrome.trycloudflare.com/auth/shopify"
+]
+
+[webhooks]
+api_version = "2026-04"
+
+[pos]
+embedded = false
